@@ -9,8 +9,8 @@ jobs:
       - image: cimg/node:18.20-browsers
     steps:
       - run: 
-          name: Test Starting
-          command: echo "Starting tests !!!"
+          name: Starting tests
+          command: echo "Starting tests"
       - checkout
       - node/install-packages:
           pkg-manager: npm
